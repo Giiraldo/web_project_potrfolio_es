@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Archivo Black';
+    src: url('/fonts/ArchivoBlack-Regular.woff2') format('woff2');
+    font-weight: 900;
+}
+body {
+    background-color: #000000;
+    width: 1440px;
+    height: 1998px;
+    background: radial-gradient(circle at 80% 20%, rgba(109, 109, 255, 0.3) 0%, rgba(109, 109, 255, 0.1) 30%, transparent 60%), 
+                radial-gradient(circle at 20% 80%, rgba(109, 109, 255, 0.2) 0%, transparent 50%),
+                #000000;
+                    width: 1440px;   
+}
+
+.profile {
+    color: white;
+    line-height: 1.5;  
+     padding: 0 120px 0 120px;  
+
+}
+.profile__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.profile__description {
+  width: 793px;
+  height: 150px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.profile__image {
+    width: 387px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.profile__name {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 72px;
+    width: 793px;
+    height: 156px;
+    line-height: 100%;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 89px;
+    margin-bottom: 15px;
+
+}
+
+.profile__subtitle {
+    font-family: 'Open Sans', sans-serif;
+    color: #9CA3AF;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
