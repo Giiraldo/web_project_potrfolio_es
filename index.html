@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/normalize.css" />
   </head>
-  <body>
+  <body class="page">
     <main>
       <section class="profile">
         <div class="profile__container">
           <div class="profile__info">
-            <h1 class="profile__name">Jerson <br />Foronda</h1>
+            <h1 class="profile__name">Jerson <br>Foronda</h1>
             <p class="profile__subtitle">
-              Desarrollador Full-Stack Junior | TypeScript, React, Node.js
+              Desarrollador Full-Stack Junior <span class="bar">|</span> <br class="profile__subtitle-br">TypeScript, React, Node.js
             </p>
             <p class="profile__description">
               Desarrollador web junior con experiencia práctica creando
@@ -49,25 +49,148 @@
         <h2 class="skills__title">Habilidades y herramientas</h2>
         <ul class="skills__list">
           <li class="skills__item">
-            <img class="skills__icon" src="/images/Group 2087326844.png" alt="HTML">
+            <img
+              class="skills__icon"
+              src="/images/Group 2087326844.png"
+              alt="HTML"
+            />
           </li>
           <li class="skills__item">
-            <img class="skills__icon" src="/images/Group 120570.png" alt="CSS">
+            <img
+              class="skills__icon"
+              src="/images/Group 120570.png"
+              alt="CSS"
+            />
           </li>
           <li class="skills__item">
-            <img class="skills__icon" src="/images/Group 120568.png" alt="JavaScript">
+            <img
+              class="skills__icon"
+              src="/images/Group 120568.png"
+              alt="JavaScript"
+            />
           </li>
           <li class="skills__item">
-            <img class="skills__icon" src="/images/Group 2087326846.png" alt="GitBash">
+            <img
+              class="skills__icon"
+              src="/images/Group 2087326846.png"
+              alt="GitBash"
+            />
           </li>
           <li class="skills__item">
-            <img class="skills__icon" src="/images/Group 2087326847.png" alt="GitHub">
+            <img
+              class="skills__icon"
+              src="/images/Group 2087326847.png"
+              alt="GitHub"
+            />
           </li>
           <li class="skills__item">
-            <img class="skills__icon" src="/images/Group 2087326848.png" alt="ChatGpt">
+            <img
+              class="skills__icon"
+              src="/images/Group 2087326848.png"
+              alt="ChatGpt"
+            />
           </li>
         </ul>
       </section>
+      <section class="projects">
+        <h2 class="projects__title">Proyectos destacados</h2>
+        <div class="projects__content">
+          <div class="projects__cards">
+            <div class="projects__container-image">
+              <img
+                src="/images/11af210a7a0d80cc8f3f8fbc8217c85cea91a527.png"
+                alt="Web page"
+                class="projects__image"
+              />
+              <div class="projects__icons">
+                <img class="projects__icon" src="/images/Group 120570.png" alt="HTML"> 
+                <img class="projects__icon" src="/images/Group 2087326844.png" alt="CSS"> 
+              </div>
+              <div class="overlay"></div>              
+            </div>
+            <div class="projects__card-web">
+              <h3 class="projects__subtitle">Página web de una cafetería</h3>
+              <p class="projects__text">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de secciones nuevas y un
+                formulario de contacto funcional.
+                <br />
+                Logro: Implementé desde cero el diseño completo de la página,
+                organicé el proyecto con buenas prácticas y publiqué la versión
+                final utilizando GitHub Pages.
+              </p>
+              <div class="projects__links">
+                <a href="#" class="projects__link">
+                  <img
+                    src="/images/Group 2087326849.png"
+                    alt="Ver demo del proyecto"
+                  />
+                </a>
+                <a href="#" class="projects__link">
+                  <img
+                    src="/images/Group 2087326850.png"
+                    alt="Ver Github del proyecto"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="projects__cards">
+          <div class="projects__container-image">
+              <img
+                src="/images/Rectangle 5.png"
+                alt="Web page"
+                class="projects__image"
+              />
+              <div class="projects__icons">
+                <img class="projects__icon" src="/images/Group 120568.png" alt="JAVASCRIPT"> 
+                <img class="projects__icon" src="/images/Frame 2087328170.png" alt="REACT"> 
+              </div>
+              <div class="overlay"></div>
+            </div>
+            <div class="projects__card-web">
+              <h3 class="projects__subtitle">Mi proyecto</h3>
+              <p class="projects__text">
+                Descripción del proyecto
+              </p>
+              <div class="projects__links">
+                <a href="#" class="projects__link">
+                  <img
+                    src="/images/Group 2087326849.png"
+                    alt="Ver demo del proyecto"
+                  />
+                </a>
+                <a href="#" class="projects__link">
+                  <img
+                    src="/images/Group 2087326850.png"
+                    alt="Ver Github del proyecto"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <h2 class="footer__title">Contacto</h2>
+      <p class="footer__text">Foro_093@hotmail.com</p>
+      <div class="footer__links">
+        <a href="#">
+          <img src="/images/LinkedIn.png" alt="LinkedIn">
+        </a>
+        <a href="#">
+          <img src="/images/Facebook.png" alt="Facebook">
+        </a>
+        <a href="">
+          <img src="/images/Instagram.png" alt=" Instagram">
+        </a>
+        <a href="">
+          <img src="/images/Vector.png" alt="X">
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
